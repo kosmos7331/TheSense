@@ -380,6 +380,7 @@ G2L["23"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["23"]["Size"] = UDim2.new(1, 0, 0.47196, 0);
 G2L["23"]["Position"] = UDim2.new(0.48315, 0, 0.51692, 0);
 G2L["23"]["Name"] = [[CategoryMisc]];
+G2L["23"]["LayoutOrder"] = 1;
 G2L["23"]["BackgroundTransparency"] = 1;
 -- Attributes
 G2L["23"]:SetAttribute([[ArchitechSketchNodeId]], [[a3f3c6ce-6c3a-4d31-b772-8959e32290ae]]);
@@ -6206,7 +6207,7 @@ local script = G2L["4"];
 	local player = players.LocalPlayer
 	local playerGui = player:WaitForChild("PlayerGui")
 	
-	
+	task.wait(5)
 	local SenseSettings = Instance.new("Folder")
 	SenseSettings.Name = "SenseSettings"
 	SenseSettings.Parent = playerGui
