@@ -6176,6 +6176,7 @@ local script = G2L["3"];
 	local UIS = game:GetService("UserInputService")
 	local key = Enum.KeyCode.Insert
 	
+	task.wait(5)
 	local TweenService = game:GetService("TweenService")
 	local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
 	
@@ -6207,7 +6208,7 @@ local script = G2L["4"];
 	local player = players.LocalPlayer
 	local playerGui = player:WaitForChild("PlayerGui")
 	
-	task.wait(5)
+	
 	local SenseSettings = Instance.new("Folder")
 	SenseSettings.Name = "SenseSettings"
 	SenseSettings.Parent = playerGui
