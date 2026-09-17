@@ -10,6 +10,8 @@ G2L["1"]["ResetOnSpawn"] = false;
 
 -- StarterGui.TheSense.MainFrame
 G2L["2"] = Instance.new("CanvasGroup", G2L["1"]);
+G2L["2"]["Visible"] = false;
+G2L["2"]["GroupTransparency"] = 1;
 G2L["2"]["BorderSizePixel"] = 3;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(9, 18, 32);
 G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
@@ -145,7 +147,7 @@ G2L["12"]["TextColor3"] = Color3.fromRGB(156, 169, 185);
 G2L["12"]["BackgroundTransparency"] = 1;
 G2L["12"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
 G2L["12"]["Size"] = UDim2.new(0.47399, 0, 0.28889, 0);
-G2L["12"]["Text"] = [[Developer]];
+G2L["12"]["Text"] = [[User]];
 G2L["12"]["Rotation"] = 0.38539;
 G2L["12"]["Name"] = [[PlayerName]];
 G2L["12"]["Position"] = UDim2.new(0.57145, 0, 0.63371, 0);
@@ -962,28 +964,28 @@ G2L["60"]["Name"] = [[Toggle]];
 G2L["60"]["Position"] = UDim2.new(0.84333, 0, 0.48837, 0);
 
 
+-- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Health.Toggle.LocalScript
+G2L["61"] = Instance.new("LocalScript", G2L["60"]);
+
+
+
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Health.Toggle.UICorner
-G2L["61"] = Instance.new("UICorner", G2L["60"]);
-G2L["61"]["CornerRadius"] = UDim.new(0.99, 0);
+G2L["62"] = Instance.new("UICorner", G2L["60"]);
+G2L["62"]["CornerRadius"] = UDim.new(0.99, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Health.Toggle.Dot
-G2L["62"] = Instance.new("Frame", G2L["60"]);
-G2L["62"]["BorderSizePixel"] = 0;
-G2L["62"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
-G2L["62"]["Size"] = UDim2.new(0.3697, 0, 0.69072, 0);
-G2L["62"]["Position"] = UDim2.new(0.079, 0, 0.164, 0);
-G2L["62"]["Name"] = [[Dot]];
+G2L["63"] = Instance.new("Frame", G2L["60"]);
+G2L["63"]["BorderSizePixel"] = 0;
+G2L["63"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
+G2L["63"]["Size"] = UDim2.new(0.3697, 0, 0.69072, 0);
+G2L["63"]["Position"] = UDim2.new(0.079, 0, 0.164, 0);
+G2L["63"]["Name"] = [[Dot]];
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Health.Toggle.Dot.UICorner
-G2L["63"] = Instance.new("UICorner", G2L["62"]);
-G2L["63"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Health.Toggle.LocalScript
-G2L["64"] = Instance.new("LocalScript", G2L["60"]);
-
+G2L["64"] = Instance.new("UICorner", G2L["63"]);
+G2L["64"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance
@@ -1045,28 +1047,28 @@ G2L["69"]["Name"] = [[Toggle]];
 G2L["69"]["Position"] = UDim2.new(0.84333, 0, 0.48837, 0);
 
 
+-- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance.Toggle.LocalScript
+G2L["6a"] = Instance.new("LocalScript", G2L["69"]);
+
+
+
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance.Toggle.UICorner
-G2L["6a"] = Instance.new("UICorner", G2L["69"]);
-G2L["6a"]["CornerRadius"] = UDim.new(0.99, 0);
+G2L["6b"] = Instance.new("UICorner", G2L["69"]);
+G2L["6b"]["CornerRadius"] = UDim.new(0.99, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance.Toggle.Dot
-G2L["6b"] = Instance.new("Frame", G2L["69"]);
-G2L["6b"]["BorderSizePixel"] = 0;
-G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
-G2L["6b"]["Size"] = UDim2.new(0.3697, 0, 0.69072, 0);
-G2L["6b"]["Position"] = UDim2.new(0.07919, 0, 0.1654, 0);
-G2L["6b"]["Name"] = [[Dot]];
+G2L["6c"] = Instance.new("Frame", G2L["69"]);
+G2L["6c"]["BorderSizePixel"] = 0;
+G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
+G2L["6c"]["Size"] = UDim2.new(0.3697, 0, 0.69072, 0);
+G2L["6c"]["Position"] = UDim2.new(0.07919, 0, 0.1654, 0);
+G2L["6c"]["Name"] = [[Dot]];
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance.Toggle.Dot.UICorner
-G2L["6c"] = Instance.new("UICorner", G2L["6b"]);
-G2L["6c"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance.Toggle.LocalScript
-G2L["6d"] = Instance.new("LocalScript", G2L["69"]);
-
+G2L["6d"] = Instance.new("UICorner", G2L["6c"]);
+G2L["6d"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.UIPadding
@@ -1343,28 +1345,28 @@ G2L["89"]["Name"] = [[Toggle]];
 G2L["89"]["Position"] = UDim2.new(0.84333, 0, 0.48837, 0);
 
 
+-- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Toggle.LocalScript
+G2L["8a"] = Instance.new("LocalScript", G2L["89"]);
+
+
+
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Toggle.UICorner
-G2L["8a"] = Instance.new("UICorner", G2L["89"]);
-G2L["8a"]["CornerRadius"] = UDim.new(0.99, 0);
+G2L["8b"] = Instance.new("UICorner", G2L["89"]);
+G2L["8b"]["CornerRadius"] = UDim.new(0.99, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Toggle.Dot
-G2L["8b"] = Instance.new("Frame", G2L["89"]);
-G2L["8b"]["BorderSizePixel"] = 0;
-G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
-G2L["8b"]["Size"] = UDim2.new(0.3697, 0, 0.69072, 0);
-G2L["8b"]["Position"] = UDim2.new(0.07692, 0, 0.15625, 0);
-G2L["8b"]["Name"] = [[Dot]];
+G2L["8c"] = Instance.new("Frame", G2L["89"]);
+G2L["8c"]["BorderSizePixel"] = 0;
+G2L["8c"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
+G2L["8c"]["Size"] = UDim2.new(0.3697, 0, 0.69072, 0);
+G2L["8c"]["Position"] = UDim2.new(0.07692, 0, 0.15625, 0);
+G2L["8c"]["Name"] = [[Dot]];
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Toggle.Dot.UICorner
-G2L["8c"] = Instance.new("UICorner", G2L["8b"]);
-G2L["8c"]["CornerRadius"] = UDim.new(1, 0);
-
-
--- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Toggle.LocalScript
-G2L["8d"] = Instance.new("LocalScript", G2L["89"]);
-
+G2L["8d"] = Instance.new("UICorner", G2L["8c"]);
+G2L["8d"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Settings
@@ -5937,8 +5939,8 @@ local script = G2L["57"];
 end;
 task.spawn(C_57);
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Health.Toggle.LocalScript
-local function C_64()
-local script = G2L["64"];
+local function C_61()
+local script = G2L["61"];
 	local players = game:GetService("Players")
 	local player = players.LocalPlayer
 	local tweenService = game:GetService("TweenService")
@@ -6071,10 +6073,10 @@ local script = G2L["64"];
 	
 	
 end;
-task.spawn(C_64);
+task.spawn(C_61);
 -- StarterGui.TheSense.MainFrame.Boxes.Players.PlrOverlay.List.Distance.Toggle.LocalScript
-local function C_6d()
-local script = G2L["6d"];
+local function C_6a()
+local script = G2L["6a"];
 	local players = game:GetService("Players")
 	local player = players.LocalPlayer
 	local tweenService = game:GetService("TweenService")
@@ -6208,7 +6210,7 @@ local script = G2L["6d"];
 	
 	
 end;
-task.spawn(C_6d);
+task.spawn(C_6a);
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Box.Toggle.LocalScript
 local function C_80()
 local script = G2L["80"];
@@ -6364,8 +6366,8 @@ local script = G2L["80"];
 end;
 task.spawn(C_80);
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Skeleton.Toggle.LocalScript
-local function C_8d()
-local script = G2L["8d"];
+local function C_8a()
+local script = G2L["8a"];
 	local players = game:GetService("Players")
 	local player = players.LocalPlayer
 	
@@ -6382,7 +6384,7 @@ local script = G2L["8d"];
 	local offBack = Color3.fromRGB(39, 58, 81)
 	local offDot = Color3.fromRGB(122, 145, 172)
 	
-	local settingsFrame = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("SkeletonSettings")
+	local settingsFrame = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("BoxSettings")
 	local settingsButton = script.Parent.Parent:WaitForChild("Settings")
 	local teamColorsButton = settingsFrame:WaitForChild("TeamColor"):WaitForChild("Toggle")
 	local teamDot = teamColorsButton:WaitForChild("Dot")
@@ -6399,11 +6401,12 @@ local script = G2L["8d"];
 	local skeletons = {}
 	
 	
+	
 	local function removeSkeleton(target)
 		local skeleton = skeletons[target]
 	
 		if skeleton then
-			for _, bone in pairs(skeleton) do
+			for _, bone in ipairs(skeleton) do
 				bone.part:Destroy()
 			end
 	
@@ -6412,9 +6415,10 @@ local script = G2L["8d"];
 	end
 	
 	
+	
 	local function createBone(startPart, endPart)
 		local part = Instance.new("Part")
-		part.Name = "SkeletonPart"
+		part.Name = "SkeletonBone"
 		part.Anchored = true
 		part.CanCollide = false
 		part.CanTouch = false
@@ -6423,14 +6427,17 @@ local script = G2L["8d"];
 		part.Size = Vector3.new(0.1, 0.1, 0.1)
 		part.Parent = workspace
 	
-		local line = Instance.new("BoxHandleAdornment")
-		line.Name = "Skeleton"
+		local line = Instance.new("CylinderHandleAdornment")
+		line.Name = "SkeletonLine"
 		line.Adornee = part
 		line.AlwaysOnTop = true
 		line.ZIndex = 10
-		line.Transparency = 0.3
+		line.Radius = 0.035
+		line.Height = 0
+		line.Transparency = 0
+	
 		line.Color3 = Color3.fromRGB(238, 244, 251)
-		line.Size = Vector3.new(0.04, 0.04, 0.3)
+	
 		line.Parent = part
 	
 		return {
@@ -6442,9 +6449,10 @@ local script = G2L["8d"];
 	end
 	
 	
+	
 	local function addSkeleton(target)
 		if skeletons[target] then
-			return skeletons[target]
+			return
 		end
 	
 		if target == player or not target.Character then
@@ -6458,99 +6466,32 @@ local script = G2L["8d"];
 			return
 		end
 	
-		local skeleton = {}
-	
-	
-		if humanoid.RigType == Enum.HumanoidRigType.R6 then
-	
-			local head = character:FindFirstChild("Head")
-			local torso = character:FindFirstChild("Torso")
-			local leftArm = character:FindFirstChild("Left Arm")
-			local rightArm = character:FindFirstChild("Right Arm")
-			local leftLeg = character:FindFirstChild("Left Leg")
-			local rightLeg = character:FindFirstChild("Right Leg")
-	
-			if not head or not torso or not leftArm or not rightArm or not leftLeg or not rightLeg then
-				return
-			end
-	
-			table.insert(skeleton, createBone(head, torso))
-			table.insert(skeleton, createBone(torso, leftArm))
-			table.insert(skeleton, createBone(torso, rightArm))
-			table.insert(skeleton, createBone(torso, leftLeg))
-			table.insert(skeleton, createBone(torso, rightLeg))
-	
-	
-		elseif humanoid.RigType == Enum.HumanoidRigType.R15 then
-	
-			local head = character:FindFirstChild("Head")
-	
-			local upperTorso = character:FindFirstChild("UpperTorso")
-			local lowerTorso = character:FindFirstChild("LowerTorso")
-	
-			local leftUpperArm = character:FindFirstChild("LeftUpperArm")
-			local leftLowerArm = character:FindFirstChild("LeftLowerArm")
-			local leftHand = character:FindFirstChild("LeftHand")
-	
-			local rightUpperArm = character:FindFirstChild("RightUpperArm")
-			local rightLowerArm = character:FindFirstChild("RightLowerArm")
-			local rightHand = character:FindFirstChild("RightHand")
-	
-			local leftUpperLeg = character:FindFirstChild("LeftUpperLeg")
-			local leftLowerLeg = character:FindFirstChild("LeftLowerLeg")
-			local leftFoot = character:FindFirstChild("LeftFoot")
-	
-			local rightUpperLeg = character:FindFirstChild("RightUpperLeg")
-			local rightLowerLeg = character:FindFirstChild("RightLowerLeg")
-			local rightFoot = character:FindFirstChild("RightFoot")
-	
-			if not head
-				or not upperTorso
-				or not lowerTorso
-				or not leftUpperArm
-				or not leftLowerArm
-				or not leftHand
-				or not rightUpperArm
-				or not rightLowerArm
-				or not rightHand
-				or not leftUpperLeg
-				or not leftLowerLeg
-				or not leftFoot
-				or not rightUpperLeg
-				or not rightLowerLeg
-				or not rightFoot then
-				return
-			end
-	
-	
-			table.insert(skeleton, createBone(head, upperTorso))
-			table.insert(skeleton, createBone(upperTorso, lowerTorso))
-	
-			table.insert(skeleton, createBone(upperTorso, leftUpperArm))
-			table.insert(skeleton, createBone(leftUpperArm, leftLowerArm))
-			table.insert(skeleton, createBone(leftLowerArm, leftHand))
-	
-			table.insert(skeleton, createBone(upperTorso, rightUpperArm))
-			table.insert(skeleton, createBone(rightUpperArm, rightLowerArm))
-			table.insert(skeleton, createBone(rightLowerArm, rightHand))
-	
-			table.insert(skeleton, createBone(lowerTorso, leftUpperLeg))
-			table.insert(skeleton, createBone(leftUpperLeg, leftLowerLeg))
-			table.insert(skeleton, createBone(leftLowerLeg, leftFoot))
-	
-			table.insert(skeleton, createBone(lowerTorso, rightUpperLeg))
-			table.insert(skeleton, createBone(rightUpperLeg, rightLowerLeg))
-			table.insert(skeleton, createBone(rightLowerLeg, rightFoot))
-	
-		else
+		if humanoid.RigType ~= Enum.HumanoidRigType.R6 then
 			return
 		end
 	
+		local head = character:FindFirstChild("Head")
+		local torso = character:FindFirstChild("Torso")
+		local leftArm = character:FindFirstChild("Left Arm")
+		local rightArm = character:FindFirstChild("Right Arm")
+		local leftLeg = character:FindFirstChild("Left Leg")
+		local rightLeg = character:FindFirstChild("Right Leg")
+	
+		if not head or not torso or not leftArm or not rightArm or not leftLeg or not rightLeg then
+			return
+		end
+	
+		local skeleton = {}
+	
+		table.insert(skeleton, createBone(head, torso))
+		table.insert(skeleton, createBone(torso, leftArm))
+		table.insert(skeleton, createBone(torso, rightArm))
+		table.insert(skeleton, createBone(torso, leftLeg))
+		table.insert(skeleton, createBone(torso, rightLeg))
 	
 		skeletons[target] = skeleton
-	
-		return skeleton
 	end
+	
 	
 	
 	local function refresh()
@@ -6566,6 +6507,7 @@ local script = G2L["8d"];
 	end
 	
 	
+	
 	for _, target in ipairs(players:GetPlayers()) do
 		if target ~= player then
 			target.CharacterAdded:Connect(function()
@@ -6577,6 +6519,7 @@ local script = G2L["8d"];
 			end)
 		end
 	end
+	
 	
 	
 	players.PlayerAdded:Connect(function(target)
@@ -6592,9 +6535,11 @@ local script = G2L["8d"];
 	end)
 	
 	
+	
 	players.PlayerRemoving:Connect(function(target)
 		removeSkeleton(target)
 	end)
+	
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -6614,6 +6559,7 @@ local script = G2L["8d"];
 	end)
 	
 	
+	
 	settingsButton.MouseButton1Click:Connect(function()
 		if not settingsOpened then
 			settingsOpened = true
@@ -6626,6 +6572,7 @@ local script = G2L["8d"];
 			settingsFrame.Visible = false
 		end
 	end)
+	
 	
 	
 	teamColorsButton.MouseButton1Click:Connect(function()
@@ -6647,73 +6594,77 @@ local script = G2L["8d"];
 	end)
 	
 	
+	
 	espMain.Changed:Connect(function()
 		refresh()
 	end)
 	
 	
+	
 	Runservice.RenderStepped:Connect(function()
+	
 		for target, skeleton in pairs(skeletons) do
 	
 			if not enabledNames or not espMain.Value then
-				for _, bone in pairs(skeleton) do
+				for _, bone in ipairs(skeleton) do
 					bone.line.Visible = false
 				end
 	
 				continue
 			end
 	
-	
-			for _, bone in pairs(skeleton) do
+			for _, bone in ipairs(skeleton) do
 	
 				local startPart = bone.startPart
 				local endPart = bone.endPart
 	
-				if startPart and endPart
-					and startPart.Parent
-					and endPart.Parent then
-	
-					local startPosition = startPart.Position
-					local endPosition = endPart.Position
-	
-					local direction = endPosition - startPosition
-					local distance = direction.Magnitude
-	
-					if distance > 0 then
-	
-						local middle = startPosition + direction / 2
-	
-						bone.part.CFrame = CFrame.lookAt(
-							middle,
-							endPosition
-						)
-	
-						bone.line.Size = Vector3.new(
-							0.08,
-							0.08,
-							distance
-						)
-	
-						if teamcolorEnabled then
-							bone.line.Color3 = target.TeamColor.Color
-						else
-							bone.line.Color3 = Color3.fromRGB(238, 244, 251)
-						end
-	
-						bone.line.Visible = true
-	
-					else
-						bone.line.Visible = false
-					end
-	
-				else
+				if not startPart or not endPart then
 					bone.line.Visible = false
+					continue
 				end
+	
+				if not startPart.Parent or not endPart.Parent then
+					bone.line.Visible = false
+					continue
+				end
+	
+				local startPosition = startPart.Position
+				local endPosition = endPart.Position
+	
+				local direction = endPosition - startPosition
+				local distance = direction.Magnitude
+	
+				if distance <= 0 then
+					bone.line.Visible = false
+					continue
+				end
+	
+				local middle = startPosition + direction * 0.5
+	
+				bone.part.CFrame = CFrame.lookAt(
+					middle,
+					endPosition
+				) * CFrame.Angles(
+					math.rad(90),
+					0,
+					0
+				)
+	
+				bone.line.Height = distance
+	
+				if teamcolorEnabled then
+					bone.line.Color3 = target.TeamColor.Color
+				else
+					bone.line.Color3 = Color3.fromRGB(238, 244, 251)
+				end
+	
+				bone.line.Visible = true
 			end
 		end
+	
 	end)
 end;
-task.spawn(C_8d);
+task.spawn(C_8a);
 -- StarterGui.TheSense.MainFrame.Boxes.Players.EspSettings.List.Tracers.Toggle.LocalScript
 local function C_94()
 local script = G2L["94"];
@@ -7453,70 +7404,425 @@ local script = G2L["170"];
 	local offBack = Color3.fromRGB(39, 58, 81)
 	local offDot = Color3.fromRGB(122, 145, 172)
 	
+	
 	local step
 	local oldCollision = {}
 	
-	local function Noclip()
-		
+	local playerGui = player:WaitForChild("PlayerGui")
+	local senseSettings = playerGui:WaitForChild("SenseSettings")
+	
+	local savesfolder = senseSettings:FindFirstChild("Saves")
+	
+	if not savesfolder then
+		savesfolder = Instance.new("Folder")
+		savesfolder.Name = "Saves"
+		savesfolder.Parent = senseSettings
+	end
+	
+	
+	local fakeHead
+	local fakeNeck
+	local fakeAccessories = {}
+	
+	local originalRequiresNeck
+	
+	
+	local function saveHead()
+	
 		local character = player.Character
+	
+		if not character then
+			return false
+		end
+	
+		local head = character:FindFirstChild("Head")
+		local torso = character:FindFirstChild("Torso")
+		local humanoid = character:FindFirstChild("Humanoid")
+	
+		if not head or not torso or not humanoid then
+			return false
+		end
+	
+		if savesfolder:FindFirstChild("OriginalHead") then
+			return false
+		end
+	
+	
+		originalRequiresNeck = humanoid.RequiresNeck
+	
+	
+	
+		head.Name = "OriginalHead"
+		head.Parent = savesfolder
+	
+	
+	
+	
+		local neck = torso:FindFirstChild("Neck")
+	
+		if neck then
+			neck.Name = "OriginalNeck"
+			neck.Parent = savesfolder
+		end
+	
+	
+	
+	
+		for _, accessory in ipairs(character:GetChildren()) do
+	
+			if accessory:IsA("Accessory") then
+	
+				if accessory.AccessoryType == Enum.AccessoryType.Hat
+					or accessory.AccessoryType == Enum.AccessoryType.Face
+					or accessory.AccessoryType == Enum.AccessoryType.Hair then
+	
+					accessory.Name = "OriginalAccessory_" .. accessory.Name
+					accessory.Parent = savesfolder
+	
+				end
+			end
+		end
+	
+	
+		return true
+	end
+	
+	
+	local function createFakeHead()
+	
+		local character = player.Character
+	
+		if not character then
+			return
+		end
+	
+		local torso = character:FindFirstChild("Torso")
+		local humanoid = character:FindFirstChild("Humanoid")
+	
+		local originalHead = savesfolder:FindFirstChild("OriginalHead")
+		local originalNeck = savesfolder:FindFirstChild("OriginalNeck")
+	
+		if not torso or not humanoid or not originalHead then
+			return
+		end
+	
+	
+	
+	
+		fakeHead = originalHead:Clone()
+	
+		fakeHead.Name = "Head"
+		fakeHead.Parent = character
+	
+		fakeHead.CFrame = originalHead.CFrame
+		fakeHead.CanCollide = false
+	
+	
+	
+	
+		if originalNeck then
+	
+			fakeNeck = originalNeck:Clone()
+	
+			fakeNeck.Name = "Neck"
+			fakeNeck.Part0 = torso
+			fakeNeck.Part1 = fakeHead
+	
+			fakeNeck.Parent = torso
+	
+		end
+	
+	
+	
+	
+		humanoid.RequiresNeck = false
+	
+	
+	
+	
+		for _, accessory in ipairs(savesfolder:GetChildren()) do
+	
+			if accessory:IsA("Accessory")
+				and string.sub(accessory.Name, 1, 18) == "OriginalAccessory_" then
+	
+				local clone = accessory:Clone()
+	
+				clone.Name = string.sub(
+					accessory.Name,
+					19
+				)
+	
+				clone.Parent = character
+	
+				humanoid:AddAccessory(clone)
+	
+				table.insert(
+					fakeAccessories,
+					clone
+				)
+	
+			end
+		end
+	end
+	
+	
+	local function restoreHead()
+	
+		local character = player.Character
+	
+		if not character then
+			return
+		end
+	
+		local torso = character:FindFirstChild("Torso")
+		local humanoid = character:FindFirstChild("Humanoid")
+	
+		if not torso or not humanoid then
+			return
+		end
+	
+	
+	
+		for _, accessory in ipairs(fakeAccessories) do
+	
+			if accessory and accessory.Parent then
+				accessory:Destroy()
+			end
+	
+		end
+	
+		table.clear(fakeAccessories)
+	
+	
+	
+	
+		if fakeNeck then
+	
+			fakeNeck:Destroy()
+			fakeNeck = nil
+	
+		end
+	
+	
+	
+	
+		if fakeHead then
+	
+			fakeHead:Destroy()
+			fakeHead = nil
+	
+		end
+	
+	
+	
+	
+		local originalHead = savesfolder:FindFirstChild("OriginalHead")
+	
+		if originalHead then
+	
+			originalHead.Name = "Head"
+			originalHead.Parent = character
+	
+		end
+	
+	
 		
+	
+		local originalNeck = savesfolder:FindFirstChild("OriginalNeck")
+	
+		if originalNeck then
+	
+			originalNeck.Name = "Neck"
+			originalNeck.Part0 = torso
+			originalNeck.Part1 = originalHead
+			originalNeck.Parent = torso
+	
+		end
+	
+	
+	
+	
+		for _, accessory in ipairs(savesfolder:GetChildren()) do
+	
+			if accessory:IsA("Accessory")
+				and string.sub(accessory.Name, 1, 18) == "OriginalAccessory_" then
+	
+				local originalName = string.sub(
+					accessory.Name,
+					19
+				)
+	
+				accessory.Name = originalName
+				accessory.Parent = character
+	
+			end
+	
+		end
+	
+	
+	
+	
+		humanoid.RequiresNeck = originalRequiresNeck
+	
+	
+		originalRequiresNeck = nil
+	end
+	
+	
+	local function Noclip()
+	
+		local character = player.Character
+	
+		if not character then
+			return
+		end
+	
+	
 		local function nclp()
-			
+	
+	
+		
+	
 			for _, part in pairs(character:GetDescendants()) do
+	
 				if part:IsA("BasePart") then
 					oldCollision[part] = part.CanCollide
 				end
+	
 			end
+	
+	
 			
-			step = Runservice.RenderStepped:Connect(function()
+	
+			saveHead()
+			createFakeHead()
+	
+	
+			
+	
+			step = Runservice.Stepped:Connect(function()
+	
 				if not toggled then
 					return
 				end
 	
 				for _, part in pairs(character:GetDescendants()) do
+	
 					if part:IsA("BasePart") then
 						part.CanCollide = false
 					end
+	
 				end
-				task.wait(0.25)
+	
 			end)
+	
 		end
-		
-		
+	
+	
 		if toggled then
+	
 			nclp()
-			
+	
 		else
-			step:Disconnect()
+	
+			
+	
+			if step then
+				step:Disconnect()
+				step = nil
+			end
+	
+	
+			
+	
+			restoreHead()
+	
+	
+			
+	
 			for part, oldValue in pairs(oldCollision) do
+	
 				if part and part.Parent then
 					part.CanCollide = oldValue
 				end
+	
 			end
 	
 			table.clear(oldCollision)
+	
 		end
-		
+	
 	end
 	
 	
 	
 	button.MouseButton1Click:Connect(function()
-		if not toggled then
-			toggled = true
-			tweenService:Create(dot, tweenInfo, {Position = dot.Position + UDim2.new(0.479, 0, 0, 0)}):Play()
-			tweenService:Create(dot, tweenInfo, {BackgroundColor3 = turnedDot}):Play()
-			tweenService:Create(button, tweenInfo, {BackgroundColor3 = turnedBack}):Play()
-			Noclip()
-		else
-			toggled = false
-			tweenService:Create(dot, tweenInfo, {Position = dot.Position - UDim2.new(0.479, 0, 0, 0)}):Play()
-			tweenService:Create(dot, tweenInfo,{BackgroundColor3 = offDot}):Play()
-			tweenService:Create(button, tweenInfo, {BackgroundColor3 = offBack}):Play()
-			Noclip()
-		end
-	end)
 	
+		if not toggled then
+	
+			toggled = true
+	
+			tweenService:Create(
+				dot,
+				tweenInfo,
+				{
+					Position = dot.Position
+						+ UDim2.new(0.479, 0, 0, 0)
+				}
+			):Play()
+	
+			tweenService:Create(
+				dot,
+				tweenInfo,
+				{
+					BackgroundColor3 = turnedDot
+				}
+			):Play()
+	
+			tweenService:Create(
+				button,
+				tweenInfo,
+				{
+					BackgroundColor3 = turnedBack
+				}
+			):Play()
+	
+			Noclip()
+	
+		else
+	
+			toggled = false
+	
+			tweenService:Create(
+				dot,
+				tweenInfo,
+				{
+					Position = dot.Position
+					- UDim2.new(0.479, 0, 0, 0)
+				}
+			):Play()
+	
+			tweenService:Create(
+				dot,
+				tweenInfo,
+				{
+					BackgroundColor3 = offDot
+				}
+			):Play()
+	
+			tweenService:Create(
+				button,
+				tweenInfo,
+				{
+					BackgroundColor3 = offBack
+				}
+			):Play()
+	
+			Noclip()
+	
+		end
+	
+	end)
 end;
 task.spawn(C_170);
 -- StarterGui.TheSense.MainFrame.Boxes.Main.Glow.Settings.DragArea.LocalScript
