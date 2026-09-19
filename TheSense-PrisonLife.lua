@@ -5558,7 +5558,7 @@ G2L["240"]["Disabled"] = true;
 
 -- StarterGui.TheSense.MainFrame.UIScale
 G2L["241"] = Instance.new("UIScale", G2L["2"]);
-G2L["241"]["Scale"] = 0.86;
+G2L["241"]["Scale"] = 0.8;
 
 
 -- StarterGui.TheSense.MainFrame.UISizeConstraint
@@ -7468,21 +7468,19 @@ local script = G2L["170"];
 	
 	
 	
-		for _, accessory in ipairs(character:GetChildren()) do
+		for _, accessory in ipairs(savesfolder:GetChildren()) do
+			if accessory:IsA("Accessory")
+				and string.sub(accessory.Name, 1, 18) == "OriginalAccessory_" then
 	
-			if accessory:IsA("Accessory") then
+				local clone = accessory:Clone()
 	
-				if accessory.AccessoryType == Enum.AccessoryType.Hat
-					or accessory.AccessoryType == Enum.AccessoryType.Face
-					or accessory.AccessoryType == Enum.AccessoryType.Hair then
+				clone.Name = string.sub(accessory.Name, 19)
 	
-					accessory.Name = "OriginalAccessory_" .. accessory.Name
-					accessory.Parent = savesfolder
+				humanoid:AddAccessory(clone)
 	
-				end
+				table.insert(fakeAccessories, clone)
 			end
 		end
-	
 	
 		return true
 	end
