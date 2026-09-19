@@ -5629,6 +5629,9 @@ local script = G2L["4"];
 	EspMain.Parent = VisualFolde
 	EspMain.Value = false
 	
+	print("/// The Sense Loaded ///")
+	print("Build: Beta, 0.1")
+	
 	
 	
 	
@@ -7469,6 +7472,7 @@ local script = G2L["170"];
 	
 	
 		for _, accessory in ipairs(savesfolder:GetChildren()) do
+	
 			if accessory:IsA("Accessory")
 				and string.sub(accessory.Name, 1, 18) == "OriginalAccessory_" then
 	
@@ -7477,6 +7481,30 @@ local script = G2L["170"];
 				clone.Name = string.sub(accessory.Name, 19)
 	
 				humanoid:AddAccessory(clone)
+	
+				local handle = clone:FindFirstChild("Handle")
+	
+				if handle then
+					handle.CanCollide = false
+					handle.CanTouch = false
+					handle.CanQuery = false
+					handle.Massless = true
+	
+					
+					for _, obj in ipairs(handle:GetChildren()) do
+						if obj:IsA("Weld")
+							or obj:IsA("WeldConstraint")
+							or obj:IsA("Motor6D") then
+							obj:Destroy()
+						end
+					end
+	
+					
+					local weld = Instance.new("WeldConstraint")
+					weld.Part0 = fakeHead
+					weld.Part1 = handle
+					weld.Parent = handle
+				end
 	
 				table.insert(fakeAccessories, clone)
 			end
