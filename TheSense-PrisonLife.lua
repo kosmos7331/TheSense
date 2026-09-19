@@ -4640,159 +4640,159 @@ G2L["1de"]["Name"] = [[NameSettings]];
 G2L["1de"]["LayoutOrder"] = 6;
 
 
--- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.UICorner
-G2L["1df"] = Instance.new("UICorner", G2L["1de"]);
-G2L["1df"]["CornerRadius"] = UDim.new(0.02089, 0);
-
-
--- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.UIStroke
-G2L["1e0"] = Instance.new("UIStroke", G2L["1de"]);
-G2L["1e0"]["Color"] = Color3.fromRGB(44, 54, 67);
-G2L["1e0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.Frame
-G2L["1e1"] = Instance.new("Frame", G2L["1de"]);
-G2L["1e1"]["BorderSizePixel"] = 0;
-G2L["1e1"]["BackgroundColor3"] = Color3.fromRGB(36, 60, 87);
-G2L["1e1"]["Size"] = UDim2.new(0.89944, 0, 0.008, 0);
-G2L["1e1"]["Position"] = UDim2.new(0.04699, 0, 0.30079, 0);
+G2L["1df"] = Instance.new("Frame", G2L["1de"]);
+G2L["1df"]["BorderSizePixel"] = 0;
+G2L["1df"]["BackgroundColor3"] = Color3.fromRGB(36, 60, 87);
+G2L["1df"]["Size"] = UDim2.new(0.89944, 0, 0.008, 0);
+G2L["1df"]["Position"] = UDim2.new(0.04699, 0, 0.30079, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor
-G2L["1e2"] = Instance.new("Frame", G2L["1de"]);
-G2L["1e2"]["BorderSizePixel"] = 0;
-G2L["1e2"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
-G2L["1e2"]["Size"] = UDim2.new(0.92179, 0, 0.24823, 0);
-G2L["1e2"]["Position"] = UDim2.new(0.03638, 0, 0.35457, 0);
-G2L["1e2"]["Name"] = [[TeamColor]];
-G2L["1e2"]["BackgroundTransparency"] = 1;
+G2L["1e0"] = Instance.new("Frame", G2L["1de"]);
+G2L["1e0"]["BorderSizePixel"] = 0;
+G2L["1e0"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
+G2L["1e0"]["Size"] = UDim2.new(0.92179, 0, 0.24823, 0);
+G2L["1e0"]["Position"] = UDim2.new(0.03638, 0, 0.35457, 0);
+G2L["1e0"]["Name"] = [[TeamColor]];
+G2L["1e0"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.ImageLabel
-G2L["1e3"] = Instance.new("ImageLabel", G2L["1e2"]);
-G2L["1e3"]["BorderSizePixel"] = 0;
-G2L["1e3"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
-G2L["1e3"]["ImageColor3"] = Color3.fromRGB(144, 170, 200);
-G2L["1e3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1e3"]["Image"] = [[rbxassetid://74744530909238]];
-G2L["1e3"]["Size"] = UDim2.new(0.09841, 0, 0.775, 0);
-G2L["1e3"]["BackgroundTransparency"] = 1;
-G2L["1e3"]["Position"] = UDim2.new(0.05556, 0, 0.4875, 0);
+G2L["1e1"] = Instance.new("ImageLabel", G2L["1e0"]);
+G2L["1e1"]["BorderSizePixel"] = 0;
+G2L["1e1"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
+G2L["1e1"]["ImageColor3"] = Color3.fromRGB(144, 170, 200);
+G2L["1e1"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1e1"]["Image"] = [[rbxassetid://74744530909238]];
+G2L["1e1"]["Size"] = UDim2.new(0.09841, 0, 0.775, 0);
+G2L["1e1"]["BackgroundTransparency"] = 1;
+G2L["1e1"]["Position"] = UDim2.new(0.05556, 0, 0.4875, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.Name
-G2L["1e4"] = Instance.new("TextLabel", G2L["1e2"]);
-G2L["1e4"]["BorderSizePixel"] = 0;
-G2L["1e4"]["TextSize"] = 14;
-G2L["1e4"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1e4"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
-G2L["1e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/Roboto.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1e4"]["TextColor3"] = Color3.fromRGB(197, 223, 255);
-G2L["1e4"]["BackgroundTransparency"] = 1;
-G2L["1e4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1e4"]["Size"] = UDim2.new(0.5873, 0, 0.9, 0);
-G2L["1e4"]["Text"] = [[Team colors]];
-G2L["1e4"]["Name"] = [[Name]];
-G2L["1e4"]["Position"] = UDim2.new(0.41429, 0, 0.5, 0);
+G2L["1e2"] = Instance.new("TextLabel", G2L["1e0"]);
+G2L["1e2"]["BorderSizePixel"] = 0;
+G2L["1e2"]["TextSize"] = 14;
+G2L["1e2"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1e2"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
+G2L["1e2"]["FontFace"] = Font.new([[rbxasset://fonts/families/Roboto.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1e2"]["TextColor3"] = Color3.fromRGB(197, 223, 255);
+G2L["1e2"]["BackgroundTransparency"] = 1;
+G2L["1e2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1e2"]["Size"] = UDim2.new(0.5873, 0, 0.9, 0);
+G2L["1e2"]["Text"] = [[Team colors]];
+G2L["1e2"]["Name"] = [[Name]];
+G2L["1e2"]["Position"] = UDim2.new(0.41429, 0, 0.5, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.Name.UICorner
-G2L["1e5"] = Instance.new("UICorner", G2L["1e4"]);
-G2L["1e5"]["CornerRadius"] = UDim.new(0.08613, 0);
+G2L["1e3"] = Instance.new("UICorner", G2L["1e2"]);
+G2L["1e3"]["CornerRadius"] = UDim.new(0.08613, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.Toggle
-G2L["1e6"] = Instance.new("TextButton", G2L["1e2"]);
-G2L["1e6"]["BorderSizePixel"] = 0;
-G2L["1e6"]["TextSize"] = 18;
-G2L["1e6"]["AutoButtonColor"] = false;
-G2L["1e6"]["TextColor3"] = Color3.fromRGB(18, 25, 40);
-G2L["1e6"]["BackgroundColor3"] = Color3.fromRGB(40, 59, 82);
-G2L["1e6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-G2L["1e6"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1e6"]["Size"] = UDim2.new(0.17957, 0, 0.74419, 0);
-G2L["1e6"]["Text"] = [[ ]];
-G2L["1e6"]["Name"] = [[Toggle]];
-G2L["1e6"]["Position"] = UDim2.new(0.84333, 0, 0.48837, 0);
+G2L["1e4"] = Instance.new("TextButton", G2L["1e0"]);
+G2L["1e4"]["BorderSizePixel"] = 0;
+G2L["1e4"]["TextSize"] = 18;
+G2L["1e4"]["AutoButtonColor"] = false;
+G2L["1e4"]["TextColor3"] = Color3.fromRGB(18, 25, 40);
+G2L["1e4"]["BackgroundColor3"] = Color3.fromRGB(40, 59, 82);
+G2L["1e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
+G2L["1e4"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1e4"]["Size"] = UDim2.new(0.17957, 0, 0.74419, 0);
+G2L["1e4"]["Text"] = [[ ]];
+G2L["1e4"]["Name"] = [[Toggle]];
+G2L["1e4"]["Position"] = UDim2.new(0.84333, 0, 0.48837, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.Toggle.UICorner
-G2L["1e7"] = Instance.new("UICorner", G2L["1e6"]);
-G2L["1e7"]["CornerRadius"] = UDim.new(0.99, 0);
+G2L["1e5"] = Instance.new("UICorner", G2L["1e4"]);
+G2L["1e5"]["CornerRadius"] = UDim.new(0.99, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.Toggle.Dot
-G2L["1e8"] = Instance.new("Frame", G2L["1e6"]);
-G2L["1e8"]["BorderSizePixel"] = 0;
-G2L["1e8"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
-G2L["1e8"]["Size"] = UDim2.new(0.36941, 0, 0.69633, 0);
-G2L["1e8"]["Position"] = UDim2.new(0.07692, 0, 0.15625, 0);
-G2L["1e8"]["Name"] = [[Dot]];
+G2L["1e6"] = Instance.new("Frame", G2L["1e4"]);
+G2L["1e6"]["BorderSizePixel"] = 0;
+G2L["1e6"]["BackgroundColor3"] = Color3.fromRGB(123, 146, 173);
+G2L["1e6"]["Size"] = UDim2.new(0.36941, 0, 0.69633, 0);
+G2L["1e6"]["Position"] = UDim2.new(0.07692, 0, 0.15625, 0);
+G2L["1e6"]["Name"] = [[Dot]];
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.TeamColor.Toggle.Dot.UICorner
-G2L["1e9"] = Instance.new("UICorner", G2L["1e8"]);
-G2L["1e9"]["CornerRadius"] = UDim.new(1, 0);
+G2L["1e7"] = Instance.new("UICorner", G2L["1e6"]);
+G2L["1e7"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.ImageLabel
-G2L["1ea"] = Instance.new("ImageLabel", G2L["1de"]);
-G2L["1ea"]["BorderSizePixel"] = 0;
-G2L["1ea"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
-G2L["1ea"]["ImageColor3"] = Color3.fromRGB(22, 152, 246);
-G2L["1ea"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1ea"]["Image"] = [[rbxassetid://100327807093079]];
-G2L["1ea"]["Size"] = UDim2.new(0.09218, 0, 0.19149, 0);
-G2L["1ea"]["BackgroundTransparency"] = 1;
-G2L["1ea"]["Position"] = UDim2.new(0.09308, 0, 0.16101, 0);
+G2L["1e8"] = Instance.new("ImageLabel", G2L["1de"]);
+G2L["1e8"]["BorderSizePixel"] = 0;
+G2L["1e8"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
+G2L["1e8"]["ImageColor3"] = Color3.fromRGB(22, 152, 246);
+G2L["1e8"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1e8"]["Image"] = [[rbxassetid://100327807093079]];
+G2L["1e8"]["Size"] = UDim2.new(0.09218, 0, 0.19149, 0);
+G2L["1e8"]["BackgroundTransparency"] = 1;
+G2L["1e8"]["Position"] = UDim2.new(0.09308, 0, 0.16101, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.Name
-G2L["1eb"] = Instance.new("TextLabel", G2L["1de"]);
-G2L["1eb"]["BorderSizePixel"] = 0;
-G2L["1eb"]["TextSize"] = 16;
-G2L["1eb"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["1eb"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
-G2L["1eb"]["FontFace"] = Font.new([[rbxasset://fonts/families/Roboto.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1eb"]["TextColor3"] = Color3.fromRGB(233, 242, 253);
-G2L["1eb"]["BackgroundTransparency"] = 1;
-G2L["1eb"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1eb"]["Size"] = UDim2.new(0.53787, 0, 0.22596, 0);
-G2L["1eb"]["Text"] = [[Settings]];
-G2L["1eb"]["Name"] = [[Name]];
-G2L["1eb"]["Position"] = UDim2.new(0.42533, 0, 0.16029, 0);
+G2L["1e9"] = Instance.new("TextLabel", G2L["1de"]);
+G2L["1e9"]["BorderSizePixel"] = 0;
+G2L["1e9"]["TextSize"] = 16;
+G2L["1e9"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1e9"]["BackgroundColor3"] = Color3.fromRGB(218, 218, 218);
+G2L["1e9"]["FontFace"] = Font.new([[rbxasset://fonts/families/Roboto.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1e9"]["TextColor3"] = Color3.fromRGB(233, 242, 253);
+G2L["1e9"]["BackgroundTransparency"] = 1;
+G2L["1e9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1e9"]["Size"] = UDim2.new(0.53787, 0, 0.22596, 0);
+G2L["1e9"]["Text"] = [[Settings]];
+G2L["1e9"]["Name"] = [[Name]];
+G2L["1e9"]["Position"] = UDim2.new(0.42533, 0, 0.16029, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.Name.UICorner
-G2L["1ec"] = Instance.new("UICorner", G2L["1eb"]);
-G2L["1ec"]["CornerRadius"] = UDim.new(0.08613, 0);
+G2L["1ea"] = Instance.new("UICorner", G2L["1e9"]);
+G2L["1ea"]["CornerRadius"] = UDim.new(0.08613, 0);
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.DragArea
-G2L["1ed"] = Instance.new("Frame", G2L["1de"]);
-G2L["1ed"]["Interactable"] = false;
-G2L["1ed"]["ZIndex"] = 3;
-G2L["1ed"]["BorderSizePixel"] = 2;
-G2L["1ed"]["BackgroundColor3"] = Color3.fromRGB(21, 27, 35);
-G2L["1ed"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["1ed"]["Size"] = UDim2.new(0.9996, 0, 1.0193, 0);
-G2L["1ed"]["Position"] = UDim2.new(0.49942, 0, 0.49035, 0);
-G2L["1ed"]["BorderColor3"] = Color3.fromRGB(44, 54, 67);
-G2L["1ed"]["Name"] = [[DragArea]];
-G2L["1ed"]["BackgroundTransparency"] = 1;
+G2L["1eb"] = Instance.new("Frame", G2L["1de"]);
+G2L["1eb"]["Interactable"] = false;
+G2L["1eb"]["ZIndex"] = 3;
+G2L["1eb"]["BorderSizePixel"] = 2;
+G2L["1eb"]["BackgroundColor3"] = Color3.fromRGB(21, 27, 35);
+G2L["1eb"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["1eb"]["Size"] = UDim2.new(0.9996, 0, 1.0193, 0);
+G2L["1eb"]["Position"] = UDim2.new(0.49942, 0, 0.49035, 0);
+G2L["1eb"]["BorderColor3"] = Color3.fromRGB(44, 54, 67);
+G2L["1eb"]["Name"] = [[DragArea]];
+G2L["1eb"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.DragArea.LocalScript
-G2L["1ee"] = Instance.new("LocalScript", G2L["1ed"]);
+G2L["1ec"] = Instance.new("LocalScript", G2L["1eb"]);
 
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.UIShadow
-G2L["1ef"] = Instance.new("UIShadow", G2L["1de"]);
+G2L["1ed"] = Instance.new("UIShadow", G2L["1de"]);
 
 -- Attributes
-G2L["1ef"]:SetAttribute([[ArchitechSketchComponentId]], [[367b4841-ba7d-4645-9263-401fc6ac6aca]]);
+G2L["1ed"]:SetAttribute([[ArchitechSketchComponentId]], [[367b4841-ba7d-4645-9263-401fc6ac6aca]]);
+
+
+-- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.UICorner
+G2L["1ee"] = Instance.new("UICorner", G2L["1de"]);
+G2L["1ee"]["CornerRadius"] = UDim.new(0.02089, 0);
+
+
+-- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.UIStroke
+G2L["1ef"] = Instance.new("UIStroke", G2L["1de"]);
+G2L["1ef"]["Color"] = Color3.fromRGB(44, 54, 67);
+G2L["1ef"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
 -- StarterGui.TheSense.MainFrame.Boxes.Main.ChamsSettings
@@ -5556,19 +5556,19 @@ G2L["240"]["Enabled"] = false;
 G2L["240"]["Disabled"] = true;
 
 
--- StarterGui.TheSense.MainFrame.UIScale
-G2L["241"] = Instance.new("UIScale", G2L["2"]);
-G2L["241"]["Scale"] = 0.8;
-
-
 -- StarterGui.TheSense.MainFrame.UISizeConstraint
-G2L["242"] = Instance.new("UISizeConstraint", G2L["2"]);
+G2L["241"] = Instance.new("UISizeConstraint", G2L["2"]);
 
 
 
 -- StarterGui.TheSense.MainFrame.UIAspectRatioConstraint
-G2L["243"] = Instance.new("UIAspectRatioConstraint", G2L["2"]);
-G2L["243"]["AspectRatio"] = 1.52;
+G2L["242"] = Instance.new("UIAspectRatioConstraint", G2L["2"]);
+G2L["242"]["AspectRatio"] = 1.52;
+
+
+-- StarterGui.TheSense.MainFrame.UIScale
+G2L["243"] = Instance.new("UIScale", G2L["2"]);
+G2L["243"]["Scale"] = 0.8;
 
 
 -- StarterGui.TheSense.MainFrame.OpenAndClose
@@ -5630,7 +5630,7 @@ local script = G2L["4"];
 	EspMain.Value = false
 	
 	print("/// The Sense Loaded ///")
-	print("Build: Beta, 0.1")
+	print("Build: Beta, 0.15")
 	
 	
 	
@@ -7395,18 +7395,22 @@ local script = G2L["170"];
 	
 	local button = script.Parent
 	local dot = button:WaitForChild("Dot")
+	
 	local toggled = false
+	
 	local Runservice = game:GetService("RunService")
-	
 	local tweenService = game:GetService("TweenService")
-	local tweenInfo = TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
 	
+	local tweenInfo = TweenInfo.new(
+		0.3,
+		Enum.EasingStyle.Quad,
+		Enum.EasingDirection.InOut
+	)
 	
 	local turnedBack = Color3.fromRGB(33, 156, 243)
 	local turnedDot = Color3.fromRGB(207, 228, 255)
 	local offBack = Color3.fromRGB(39, 58, 81)
 	local offDot = Color3.fromRGB(122, 145, 172)
-	
 	
 	local step
 	local oldCollision = {}
@@ -7421,7 +7425,6 @@ local script = G2L["170"];
 		savesfolder.Name = "Saves"
 		savesfolder.Parent = senseSettings
 	end
-	
 	
 	local fakeHead
 	local fakeNeck
@@ -7440,7 +7443,7 @@ local script = G2L["170"];
 	
 		local head = character:FindFirstChild("Head")
 		local torso = character:FindFirstChild("Torso")
-		local humanoid = character:FindFirstChild("Humanoid")
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
 	
 		if not head or not torso or not humanoid then
 			return false
@@ -7450,64 +7453,31 @@ local script = G2L["170"];
 			return false
 		end
 	
-	
 		originalRequiresNeck = humanoid.RequiresNeck
 	
+		for _, accessory in ipairs(character:GetChildren()) do
 	
+			if accessory:IsA("Accessory") then
+	
+				if accessory.AccessoryType == Enum.AccessoryType.Hat
+					or accessory.AccessoryType == Enum.AccessoryType.Face
+					or accessory.AccessoryType == Enum.AccessoryType.Hair then
+	
+					accessory.Name = "OriginalAccessory_" .. accessory.Name
+					accessory.Parent = savesfolder
+	
+				end
+			end
+		end
 	
 		head.Name = "OriginalHead"
 		head.Parent = savesfolder
-	
-	
-	
 	
 		local neck = torso:FindFirstChild("Neck")
 	
 		if neck then
 			neck.Name = "OriginalNeck"
 			neck.Parent = savesfolder
-		end
-	
-	
-	
-	
-		for _, accessory in ipairs(savesfolder:GetChildren()) do
-	
-			if accessory:IsA("Accessory")
-				and string.sub(accessory.Name, 1, 18) == "OriginalAccessory_" then
-	
-				local clone = accessory:Clone()
-	
-				clone.Name = string.sub(accessory.Name, 19)
-	
-				humanoid:AddAccessory(clone)
-	
-				local handle = clone:FindFirstChild("Handle")
-	
-				if handle then
-					handle.CanCollide = false
-					handle.CanTouch = false
-					handle.CanQuery = false
-					handle.Massless = true
-	
-					
-					for _, obj in ipairs(handle:GetChildren()) do
-						if obj:IsA("Weld")
-							or obj:IsA("WeldConstraint")
-							or obj:IsA("Motor6D") then
-							obj:Destroy()
-						end
-					end
-	
-					
-					local weld = Instance.new("WeldConstraint")
-					weld.Part0 = fakeHead
-					weld.Part1 = handle
-					weld.Parent = handle
-				end
-	
-				table.insert(fakeAccessories, clone)
-			end
 		end
 	
 		return true
@@ -7523,7 +7493,7 @@ local script = G2L["170"];
 		end
 	
 		local torso = character:FindFirstChild("Torso")
-		local humanoid = character:FindFirstChild("Humanoid")
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
 	
 		local originalHead = savesfolder:FindFirstChild("OriginalHead")
 		local originalNeck = savesfolder:FindFirstChild("OriginalNeck")
@@ -7532,19 +7502,16 @@ local script = G2L["170"];
 			return
 		end
 	
-	
-	
-	
 		fakeHead = originalHead:Clone()
 	
 		fakeHead.Name = "Head"
 		fakeHead.Parent = character
-	
 		fakeHead.CFrame = originalHead.CFrame
+	
 		fakeHead.CanCollide = false
-	
-	
-	
+		fakeHead.CanTouch = false
+		fakeHead.CanQuery = false
+		fakeHead.Massless = true
 	
 		if originalNeck then
 	
@@ -7553,18 +7520,11 @@ local script = G2L["170"];
 			fakeNeck.Name = "Neck"
 			fakeNeck.Part0 = torso
 			fakeNeck.Part1 = fakeHead
-	
 			fakeNeck.Parent = torso
 	
 		end
 	
-	
-	
-	
 		humanoid.RequiresNeck = false
-	
-	
-	
 	
 		for _, accessory in ipairs(savesfolder:GetChildren()) do
 	
@@ -7573,19 +7533,67 @@ local script = G2L["170"];
 	
 				local clone = accessory:Clone()
 	
-				clone.Name = string.sub(
-					accessory.Name,
-					19
-				)
-	
+				clone.Name = string.sub(accessory.Name, 19)
 				clone.Parent = character
 	
-				humanoid:AddAccessory(clone)
+				local handle = clone:FindFirstChild("Handle")
 	
-				table.insert(
-					fakeAccessories,
-					clone
-				)
+				if handle then
+	
+					handle.CanCollide = false
+					handle.CanTouch = false
+					handle.CanQuery = false
+					handle.Massless = true
+					handle.Anchored = false
+	
+					local accessoryAttachment
+	
+					for _, object in ipairs(handle:GetChildren()) do
+	
+						if object:IsA("Attachment") then
+							accessoryAttachment = object
+							break
+						end
+	
+					end
+	
+					if accessoryAttachment then
+	
+						local headAttachment =
+							fakeHead:FindFirstChild(accessoryAttachment.Name)
+	
+						if headAttachment then
+	
+							handle.CFrame =
+								headAttachment.WorldCFrame
+								* accessoryAttachment.CFrame:Inverse()
+	
+						end
+	
+					end
+	
+					for _, object in ipairs(handle:GetChildren()) do
+	
+						if object:IsA("Weld")
+							or object:IsA("WeldConstraint")
+							or object:IsA("Motor6D") then
+	
+							object:Destroy()
+	
+						end
+	
+					end
+	
+					local weld = Instance.new("WeldConstraint")
+	
+					weld.Name = "FakeHeadAccessoryWeld"
+					weld.Part0 = fakeHead
+					weld.Part1 = handle
+					weld.Parent = handle
+	
+				end
+	
+				table.insert(fakeAccessories, clone)
 	
 			end
 		end
@@ -7601,13 +7609,11 @@ local script = G2L["170"];
 		end
 	
 		local torso = character:FindFirstChild("Torso")
-		local humanoid = character:FindFirstChild("Humanoid")
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
 	
 		if not torso or not humanoid then
 			return
 		end
-	
-	
 	
 		for _, accessory in ipairs(fakeAccessories) do
 	
@@ -7619,28 +7625,15 @@ local script = G2L["170"];
 	
 		table.clear(fakeAccessories)
 	
-	
-	
-	
 		if fakeNeck then
-	
 			fakeNeck:Destroy()
 			fakeNeck = nil
-	
 		end
-	
-	
-	
 	
 		if fakeHead then
-	
 			fakeHead:Destroy()
 			fakeHead = nil
-	
 		end
-	
-	
-	
 	
 		local originalHead = savesfolder:FindFirstChild("OriginalHead")
 	
@@ -7651,12 +7644,9 @@ local script = G2L["170"];
 	
 		end
 	
-	
-		
-	
 		local originalNeck = savesfolder:FindFirstChild("OriginalNeck")
 	
-		if originalNeck then
+		if originalNeck and originalHead then
 	
 			originalNeck.Name = "Neck"
 			originalNeck.Part0 = torso
@@ -7665,18 +7655,13 @@ local script = G2L["170"];
 	
 		end
 	
-	
-	
-	
 		for _, accessory in ipairs(savesfolder:GetChildren()) do
 	
 			if accessory:IsA("Accessory")
 				and string.sub(accessory.Name, 1, 18) == "OriginalAccessory_" then
 	
-				local originalName = string.sub(
-					accessory.Name,
-					19
-				)
+				local originalName =
+					string.sub(accessory.Name, 19)
 	
 				accessory.Name = originalName
 				accessory.Parent = character
@@ -7685,11 +7670,7 @@ local script = G2L["170"];
 	
 		end
 	
-	
-	
-	
 		humanoid.RequiresNeck = originalRequiresNeck
-	
 	
 		originalRequiresNeck = nil
 	end
@@ -7703,13 +7684,9 @@ local script = G2L["170"];
 			return
 		end
 	
+		if toggled then
 	
-		local function nclp()
-	
-	
-		
-	
-			for _, part in pairs(character:GetDescendants()) do
+			for _, part in ipairs(character:GetDescendants()) do
 	
 				if part:IsA("BasePart") then
 					oldCollision[part] = part.CanCollide
@@ -7717,14 +7694,11 @@ local script = G2L["170"];
 	
 			end
 	
+			local saved = saveHead()
 	
-			
-	
-			saveHead()
-			createFakeHead()
-	
-	
-			
+			if saved then
+				createFakeHead()
+			end
 	
 			step = Runservice.Stepped:Connect(function()
 	
@@ -7732,7 +7706,7 @@ local script = G2L["170"];
 					return
 				end
 	
-				for _, part in pairs(character:GetDescendants()) do
+				for _, part in ipairs(character:GetDescendants()) do
 	
 					if part:IsA("BasePart") then
 						part.CanCollide = false
@@ -7742,29 +7716,14 @@ local script = G2L["170"];
 	
 			end)
 	
-		end
-	
-	
-		if toggled then
-	
-			nclp()
-	
 		else
-	
-			
 	
 			if step then
 				step:Disconnect()
 				step = nil
 			end
 	
-	
-			
-	
 			restoreHead()
-	
-	
-			
 	
 			for part, oldValue in pairs(oldCollision) do
 	
@@ -7775,11 +7734,8 @@ local script = G2L["170"];
 			end
 	
 			table.clear(oldCollision)
-	
 		end
-	
 	end
-	
 	
 	
 	button.MouseButton1Click:Connect(function()
@@ -7896,8 +7852,8 @@ local script = G2L["1dd"];
 end;
 task.spawn(C_1dd);
 -- StarterGui.TheSense.MainFrame.Boxes.Main.NameSettings.DragArea.LocalScript
-local function C_1ee()
-local script = G2L["1ee"];
+local function C_1ec()
+local script = G2L["1ec"];
 	local dragArea = script.Parent
 	local menu = script.Parent.Parent
 	
@@ -7938,7 +7894,7 @@ local script = G2L["1ee"];
 		end
 	end)
 end;
-task.spawn(C_1ee);
+task.spawn(C_1ec);
 -- StarterGui.TheSense.MainFrame.Boxes.Main.ChamsSettings.DragArea.LocalScript
 local function C_200()
 local script = G2L["200"];
